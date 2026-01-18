@@ -7,7 +7,7 @@
 </head>
 <body>
     <section>
-    <div style="display: flex;gap: 50px;">
+    <div id="header"style="display: flex;gap: 50px;">
     <div id="logo"><img src="vivo.png" alt="logo"></div>
     <div id="FY" class="header"><p><b>Para você</b></p></div>
     <div id="FE" class="header"><p><b>Para empresas</b></p></div>
@@ -15,18 +15,24 @@
     <div id="Busca" class="header"><p><b>Busca</b></p></div>
     <div id="Login" class="header"><p><b>Login</b></p></div>
     </section>
-    
-        
     </div>
     </div>
+
+    <section>
+        <img id="img1" src="mulher_roxo.jpg" alt="mulher de roxo">
+    </section>
 
     <style>
         .header{ /*FY & FE*/
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            font-size: 20px;
-            margin-top: 3px;
-            
+            font-size: 1.2em;
+            margin-top: 0.3rem;
         }
+        #header{
+            justify-content: center;
+            align-items: center;
+        }
+
         
             #FY p, #Acessibilidade, #Busca, #Login{
                 color: #660099;
@@ -34,18 +40,21 @@
             #FE p{
                 color: gray;
             }
-            #Acessibilidade{
-                margin-left: 300px;
+            
+            #Busca {
+                margin-left: 10rem;
             }
             #FY p:hover, #FE p:hover, .header p:hover{
             color: blueviolet;
-            font-size: 21px;
         }
 
         #logo img{
-            width:110px;
-            margin-left: 200px;
-            margin-top: 15px;
+            width:35%;
+            margin-top: 0.4rem;
+
+        }
+        #img1{
+            width: 100%;
         }
         
         
