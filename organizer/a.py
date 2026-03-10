@@ -1,42 +1,12 @@
-variaveis{
+from datetime import datetime
+name = input("Hallo, wie heisst du? ")
 
-}
+jetzt = datetime.now().hour
 
-Downloads, Documentos, Imagens, Musicas, Videos{
-definir o tamanho dos arquivos
-quantos arquivos nas pastas
-qual e o tipo de arquivo mais comum
-}
-
-deletar os arquivos duplicados nas pastas, del arquivos temporarios, del arquivos grandes demais{
-    Downloads, Documentos, Imagens, Musicas, Videos
-}
-
-relatorio final{}
-
-import os
-
-# Variáveis
-downloads = "C:\Users\mucam\Downloads"
-documentos = "C:\Users\mucam\Documents"
-imagens = "C:\Users\mucam\Pictures"
-musicas = "C:\Users\mucam\Music"
-videos = "C:\Users\mucam\Videos"
-temp = "C:\Users\mucam\AppData\Local\Temp"
-temp1 = "C:\Windows\Prefetch"
-temp2 = "C:\Windows\Temp"
-pastas = [downloads, documentos, imagens, musicas, videos]
-tipo_arquivo = {}
-informacoes = {}
-
-# Obter informações das pastas
-def obter_informacoes_pasta(pastas):
-    
-    
-    
-    
-    
-    return informacoes
-
-
+if jetzt < 11.59:
+    print(f"Guten Morgan Herr {name}")
+elif jetzt >= 12 & jetzt < 18:
+    print(f"Guten Tag {name}")
+else:
+    print(f"Good Nacht Herr {name}")
 
