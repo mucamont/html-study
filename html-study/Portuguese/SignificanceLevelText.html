@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+    body { margin: 0; display: flex; height: 100vh; }
+
+    /* Conteúdo Principal */
+    .conteudo-principal {
+        flex: 1; /* Ocupa o espaço restante */
+        padding: 20px;
+        background-color: #f4f4f4;
+    }
+
+    /* Margem/Painel de Observações */
+    .painel-notas {
+        width: 300px; /* Largura da "margem" */
+        border-left: 2px solid #ccc; /* A linha divisória */
+        padding: 20px;
+        background-color: #fff;
+        overflow-y: auto; /* Rolagem se houver muita nota */
+    }
+</style>
+</head>
+<body>
+
+    <div class="conteudo-principal">
+        <h1>Conteúdo</h1>
+        <p>Texto principal aqui...</p>
+    </div>
+
+    <div class="painel-notas">
+        <h2>Observações</h2>
+        <p>Notas importantes...</p>
+    </div>
+
+</body>
+</html>
